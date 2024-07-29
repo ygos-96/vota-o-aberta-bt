@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags para SEO -->
+    <meta name="description" content="Votação aberta para a competição de tatuagens na Batalha de Tattoo - Tuzinho Academy. Vote nas melhores tatuagens de iniciantes.">
+    <meta name="keywords" content="votação, competição de tatuagem, iniciantes, técnicas de tatuagem, Tuzinho Academy">
+    <meta name="author" content="Batalha de Tattoo - Tuzinho Academy">
+    <!-- link bootstrap -->
+    <link rel="preconnect" href="https://stackpath.bootstrapcdn.com">
+    <link rel="preload" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" as="style" onload="this.rel='stylesheet'">
+    <!-- link bootstrap -->
+    <!-- Font Awesome -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Stylesheets -->
+    <link rel="preload" href="src/css/styles.min.css" as="style" onload="this.rel='stylesheet'">
+    <!-- Favicon -->
+    <link rel="icon" href="src/img/favicon-32x32.png" type="image/x-icon">
+    <title>Votação aberta - Batalha de Tattoo</title>
+</head>
+
+<body>
+    <nav class="navbar justify-content-center navbar-expand-lg navbar-dark">
+        <span class="navbar-brand mr-0 text-center">Votação aberta</span>
+    </nav>
+    <div class="batalha d-flex flex-column position-relative loaded">
+        <div class="batalha--status position-absolute text-center" aria-label="Status da batalha">
+            <i class="fa fa-remove" aria-hidden="true"></i>
+            <i class="fa fa-heart" aria-hidden="true"></i>
+        </div>
+        <div class="batalha--cards text-center d-flex justify-content-center align-items-center" aria-label="Cartões de batalha">
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script src="https://hammerjs.github.io/dist/hammer.min.js" defer></script>
+    <script src="src/js/script.min.js" defer></script>
+</body>
+
+</html>
